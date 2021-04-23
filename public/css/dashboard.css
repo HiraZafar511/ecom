@@ -1,0 +1,129 @@
+.content {
+  margin-top: 33px;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 6px 10px -4px rgb(0 0 0 / 15%);
+  background-color: #fff;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  border: 0;
+  transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
+}
+.card-stats .card-body {
+  padding: 15px 15px 0;
+}
+.card-stats .icon-big {
+  font-size: 3em;
+  min-height: 64px;
+}
+.card-stats .icon-big svg {
+  line-height: 59px;
+  display: inline-block;
+  font: normal normal normal 14px/1 "nucleo-icons";
+  font-size: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.card-stats .card-body .numbers {
+  text-align: right;
+  font-size: 2em;
+}
+.card-stats .card-body .numbers .card-category {
+  color: #9a9a9a;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+.card-stats .card-body .numbers p {
+  margin-bottom: 0;
+}
+.card-stats .card-footer {
+  padding: 0 15px 15px;
+}
+.card .card-footer {
+  background-color: initial;
+  border: 0;
+}
+.card-stats .card-footer .stats {
+  color: #9a9a9a;
+}
+.card .card-footer .stats svg {
+  margin-right: 5px;
+  position: relative;
+  top: 0;
+  color: #66615b;
+}
+.card .card-header:not([data-background-color]) {
+  background-color: initial;
+}
+.card .card-header {
+  padding: 15px 15px 0;
+  border: 0;
+}
+.card .card-header .card-title {
+  margin-top: 10px;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+}
+.card-category {
+  font-size: 1em;
+}
+.card-category,
+.category {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #9a9a9a;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* .MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+.Component-root-6 {
+  stroke: transparent !important;}
+
+.Component-root-5 {
+  stroke: rgb(138 138 138) !important;}
+  .LegendRoot-root-10{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  } */
+.email .Component-root-2 {
+  height: 175px !important;
+}
+.text-primary,
+a.text-primary:focus,
+a.text-primary:hover {
+  color: #51cbce !important;
+}
+.use-behave ul {
+  display: flex;
+  width: -webkit-fill-available;
+  flex-wrap: wrap;
+}
+.nasdaq .recharts-wrapper {
+  margin: auto;
+  width: 100%;
+}
+@media screen and (max-width: 945px) {
+  .nasdaq .recharts-wrapper svg {
+    width: 100% !important;
+    max-width: 100% ;
+  }
+  .nasdaq .recharts-wrapper {
+    width: 100% ;
+    max-width: 100%;
+  }
+  .nasdaq .recharts-legend-wrapper {
+    width: 100% !important;
+    max-width: 100%;
+    left: 0 !important;
+  }
+}

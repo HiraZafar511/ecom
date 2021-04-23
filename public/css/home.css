@@ -1,0 +1,117 @@
+.card.card-upgrade .card-category {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.dash-pro .card-category {
+  font-size: 1em !important;
+}
+.card-category,
+.category {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 0.7142em;
+}
+.card .card-body {
+  padding: 15px 15px 10px;
+}
+.dash-pro .table-responsive {
+  overflow: scroll;
+  padding-bottom: 10px;
+}
+.dash-pro .table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  padding: 12px 7px;
+  vertical-align: middle;
+}
+.dash-pro .table > thead > tr > th {
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  border: 0;
+}
+.dash-pro .table > tbody > tr {
+  position: relative;
+}
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+.table td,
+.table th {
+  font-size: 14px;
+}
+.btn.disabled {
+  background-color: #66615b;
+  border-color: #66615b;
+}
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px;
+  padding-right: 23px;
+  padding-left: 23px;
+}
+.btn.disabled,
+.btn:disabled,
+.btn[disabled] {
+  opacity: 0.5;
+}
+.dash-pro .btn {
+  font-weight: 600;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  text-transform: uppercase;
+  border: none;
+
+  padding: 11px 22px;
+  cursor: pointer;
+
+  color: #fff;
+  transition: all 0.15s linear;
+}
+.btn-primary {
+  background-color: #51cbce;
+  color: #fff;
+}
+.card .card-header:not([data-background-color]) {
+  background-color: initial;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 6px 10px -4px rgb(0 0 0 / 15%);
+  background-color: #fff;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  border: 0;
+  transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.navbar.navbar-transparent {
+    background-color: transparent!important;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+}
+.dash-pro{
+    margin-top: 31px;
+}

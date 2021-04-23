@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* ============================================footer start===========================================*/
+.footer {
+  padding: 24px 0;
+}
+.footer ul {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li a {
+  color: inherit;
+  padding: 0.5rem;
+  font-size: 0.8571em;
+  text-transform: uppercase;
+}
+.footer .footer-nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .copyright {
+  font-size: 0.8571em;
+  line-height: 1.8;
+}
+@media screen and (min-width: 768px) {
+  .footer .credits {
+    padding-right: 15px;
+  }
+  .footer .footer-nav {
+    padding-left: 21px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer .copyright {
+    float: right;
+    padding-right: 15px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+/* ============================================footer end============================================ */
+
+/* =============================================header start=========================================== */
+.navbar .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 0.7142em;
+  padding: 0.5rem 0.7rem;
+  line-height: 1.625rem;
+  margin-right: 3px;
+}
+.header{
+  border-bottom: 1px solid #dddddd;
+}
+.search {
+  padding: 7px 10px;
+  background: url(/images/Capture.PNG) no-repeat center right 10px white;
+  background-color: #ededea !important;
+  border: none;
+}
+.header .input-group {
+  width: 95%;
+}
+/* .header .container-fluid{
+  margin-left: 15px;
+  margin-right: 15px;
+} */
+.header .navbar {
+  padding: 0.5rem 1rem;
+}
+.header .form-control:focus {
+  color: #212529;
+  background-color: #ededea;
+  box-shadow: none;
+  border-color: transparent;
+}
+.navbar.navbar-transparent .nav-item .nav-link:not(.btn) {
+  color: #66615b;
+}
+.navbar .navbar-collapse .nav-item a {
+  font-size: 14px;
+}
+.navbar .navbar-nav .nav-link svg {
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
+}
+.navbar .navbar-nav .nav-link i.nc-icon + p {
+  margin-left: 7px;
+}
+.navbar p {
+  display: inline-block;
+  margin: 0;
+  line-height: 1.8em;
+  font-size: 1em;
+  font-weight: 400;
+}
+.navbar-brand {
+  margin-left: 36px;
+}
+/* =============================================header end============================================= */
+@media screen and (min-width: 768px) {
+  .footer .credits {
+    padding-right: 15px;
+  }
+  .footer .footer-nav {
+    padding-left: 21px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer .copyright {
+    float: right;
+    padding-right: 15px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+}
