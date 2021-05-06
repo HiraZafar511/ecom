@@ -97,6 +97,7 @@ body {
   z-index: 5;
   .sidebar {
     background: #212120;
+    height: 100vh;
     &.closed {
       transform: translateX(-100%);
     } // <-- Left portrait AND landscape!
