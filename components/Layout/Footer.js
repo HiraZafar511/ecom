@@ -1,10 +1,10 @@
 const index = () => {
   return (
     <div>
-      <footer class="footer d-flex">
-        <div class="container-fluid">
-          <div class="row">
-            <nav class="footer-nav">
+      <footer className="footer d-flex">
+        <div className="container-fluid">
+          <div className="row">
+            <nav className="footer-nav">
               <ul>
                 <li>
                   <a href="#" target="_blank">
@@ -25,9 +25,9 @@ const index = () => {
                   </a>
                 </li>
               </ul>
-               <div class="credits ml-auto">
-              <div class="copyright">
-                © 2021, made with <i class="fa fa-heart heart"></i> by Creative
+               <div className="credits ml-auto">
+              <div className="copyright">
+                © 2021, made with <i className="fa fa-heart heart"></i> by Creative
                 Tim
               </div>
             </div>

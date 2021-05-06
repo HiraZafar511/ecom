@@ -23,12 +23,12 @@ export const Nasdaq = () => {
 
   return (
     <div id="container" className="nasdaq">
-      <div class="card-chart card">
-        <div class="card-header">
-          <h5 class="card-title">NASDAQ: AAPL</h5>
-          <p class="card-category">Line Chart with Points</p>
+      <div className="card-chart card">
+        <div className="card-header">
+          <h5 className="card-title">NASDAQ: AAPL</h5>
+          <p className="card-category">Line Chart with Points</p>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <LineChart
             data={data}
             height={300}
@@ -49,14 +49,14 @@ export const Nasdaq = () => {
             <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
           </LineChart>
         </div>
-        <div class="card-footer">
-          <div class="chart-legend">
-            <i class="fa fa-circle text-info"></i> Tesla Model S{" "}
-            <i class="fa fa-circle text-warning"></i> BMW 5 Series
+        <div className="card-footer">
+          <div className="chart-legend">
+            <i className="fa fa-circle text-info"></i> Tesla Model S{" "}
+            <i className="fa fa-circle text-warning"></i> BMW 5 Series
           </div>
           <hr />
-          <div class="card-stats">
-            <i class="fa fa-check"></i> Data information certified
+          <div className="card-stats">
+            <i className="fa fa-check"></i> Data information certified
           </div>
         </div>
       </div>

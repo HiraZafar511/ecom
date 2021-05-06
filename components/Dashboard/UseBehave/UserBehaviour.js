@@ -55,12 +55,12 @@ export default class Demo extends React.PureComponent {
       <div className="row same use-behave">
         <div className="col-md-12">
           <div className="card">
-            <div class="card-header">
-              <h5 class="card-title">Users Behavior</h5>
-              <p class="card-category bn">24 Hours performance</p>
+            <div className="card-header">
+              <h5 className="card-title">Users Behavior</h5>
+              <p className="card-category bn">24 Hours performance</p>
             </div>
 
-            <div class="card-body">
+            <div className="card-body">
               <Chart data={chartData} rootComponent={ChartRoot}>
                 <ArgumentAxis tickFormat={format} />
                 <ValueAxis />
@@ -95,10 +95,10 @@ export default class Demo extends React.PureComponent {
                 <Stack stacks={stacks} />
               </Chart>
             </div>
-            <div class="card-footer">
+            <div className="card-footer">
               <hr />
-              <div class="stats">
-                <i class="fa fa-history"></i> Updated 3 minutes ago
+              <div className="stats">
+                <i className="fa fa-history"></i> Updated 3 minutes ago
               </div>
             </div>
           </div>

@@ -26,27 +26,27 @@ export default class Demo extends React.PureComponent {
     const { data: chartData } = this.state;
 
     return (
-      <div class="card email">
-        <div class="card-header">
-          <h5 class="card-title">Email Statistics</h5>
-          <p class="card-category">Last Campaign Performance</p>
+      <div className="card email">
+        <div className="card-header">
+          <h5 className="card-title">Email Statistics</h5>
+          <p className="card-category">Last Campaign Performance</p>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <Chart data={chartData}>
             <PieSeries valueField="area" argumentField="country" />
             <Animation />
           </Chart>
         </div>
-        <div class="card-footer">
-          <div class="legend">
-            <i class="fa fa-circle text-primary"></i> Opened{" "}
-            <i class="fa fa-circle text-warning"></i> Read{" "}
-            <i class="fa fa-circle text-danger"></i> Deleted{" "}
-            <i class="fa fa-circle text-gray"></i> Unopened
+        <div className="card-footer">
+          <div className="legend">
+            <i className="fa fa-circle text-primary"></i> Opened{" "}
+            <i className="fa fa-circle text-warning"></i> Read{" "}
+            <i className="fa fa-circle text-danger"></i> Deleted{" "}
+            <i className="fa fa-circle text-gray"></i> Unopened
           </div>
           <hr />
-          <div class="stats">
-            <i class="fa fa-calendar"></i> Number of emails sent
+          <div className="stats">
+            <i className="fa fa-calendar"></i> Number of emails sent
           </div>
         </div>
       </div>

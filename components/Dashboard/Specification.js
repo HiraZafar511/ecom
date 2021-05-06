@@ -43,29 +43,29 @@ const Specific = () => {
       <div className="row">
 
       {data.map((item,key)=>(
-             <div class="col-sm-6 col-md-6 col-lg-3">
-             <div class="card-stats card">
+             <div className="col-sm-6 col-md-6 col-lg-3">
+             <div className="card-stats card">
               
-               <div class="card-body">
-                 <div class="row">
-                   <div class="col-5 col-md-4">
-                     <div class="icon-big text-center icon-warning">
-                       <i class={`fas ${item.icon} ${item.color}`}></i>
+               <div className="card-body">
+                 <div className="row">
+                   <div className="col-5 col-md-4">
+                     <div className="icon-big text-center icon-warning">
+                       <i className={`fas ${item.icon} ${item.color}`}></i>
                      </div>
                    </div>
-                   <div class="col-7 col-md-8">
-                     <div class="numbers">
-                       <p class="card-category">{item.title}</p>
-                       <p class="card-title">{item.worth}</p>
+                   <div className="col-7 col-md-8">
+                     <div className="numbers">
+                       <p className="card-category">{item.title}</p>
+                       <p className="card-title">{item.worth}</p>
                        <p></p>
                      </div>
                    </div>
                  </div>
                </div>
-               <div class="card-footer">
+               <div className="card-footer">
                  <hr />
-                 <div class="stats">
-                   <i class={` ${item.icon1}`}></i> {item.task}
+                 <div className="stats">
+                   <i className={` ${item.icon1}`}></i> {item.task}
                  </div>
                </div>
              </div>
