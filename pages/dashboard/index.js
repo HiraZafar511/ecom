@@ -1,7 +1,10 @@
-import SideBar from "../../components/SideBar/index";
+import Table from "../../components/SideBar/index";
 
 const index = () => {
-  return <SideBar />;
+  return
+  <Layout>
+  <Table />
+  </Layout>
 };
 
 export default index;

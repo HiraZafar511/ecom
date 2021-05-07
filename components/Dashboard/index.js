@@ -1,14 +1,12 @@
 import Specification from "./Specification";
-import UserBehaviour from "./UseBehave/UserBehaviour";
-import TwoChart from "./TwoCharts/index";
+import Maps from "./Maps";
 
 
 const index = () => {
   return (
     <>
       <Specification />
-      <UserBehaviour />
-     <TwoChart/>
+     <Maps/>
     </>
   );
 };

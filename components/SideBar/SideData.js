@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const SideData = () => {
   return (
     <div className="sidebar" data-color="black" data-active-color="info">
@@ -26,18 +28,21 @@ const SideData = () => {
               <p>Dashboard</p>
             </a>
           </li>
-          <li className="">
+          {/* <li className="">
             <a className="nav-link" href="#/admin/icons">
               <i className="nc-icon nc-diamond"></i>
               <p>Icons</p>
             </a>
-          </li>
-          <li className="">
-            <a className="nav-link" href="#/admin/maps">
+          </li> */}
+ <li className="">
+<Link href="/map">
+<a className="nav-link" href="#/admin/maps">
               <i className="nc-icon nc-pin-3"></i>
               <p>Maps</p>
             </a>
-          </li>
+        </Link></li>
+
+       
           <li className="">
             <a className="nav-link" href="#/admin/notifications">
               <i className="nc-icon nc-bell-55"></i>

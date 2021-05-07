@@ -1,14 +1,14 @@
 
-import HomePage from "../components/Home";
-import Layout from "../components/Layout"
+import HomePage from "../components/SideBar/index";
+
 const Index = () => {
   return (
     
   <div style={{backgroundColor: "#f4f3ef"}}>
 
-    <Layout>
+   
      <HomePage />
-     </Layout>
+    
      </div>
   );
 };
