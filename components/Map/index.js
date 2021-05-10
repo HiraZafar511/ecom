@@ -1,5 +1,5 @@
 import React from "react";
-import Message from "./Message";
+import Map from "../Dashboard/Maps";
 import SideData from "../SideBar/SideData";
 import Lay from "../Layout/index";
 
@@ -34,7 +34,7 @@ class Layout extends React.Component {
         <Lay>
           <div id="main">
             <div className="content1">
-              <Message/>
+              <Map />
             </div>
           </div>
         </Lay>

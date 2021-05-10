@@ -1,17 +1,9 @@
-import Layout from "../../components/Layout/index";
-import Map from "../../components/Dashboard/Maps";
+import Map from "../../components/Map/index";
 
 const index = () => {
   return (
     <>
-      <Layout>
-        <div className="container mt-5">
-          <div className="card">
-          
-            <Map />
-          </div>
-        </div>
-      </Layout>
+      <Map />
     </>
   );
 };

@@ -22,7 +22,7 @@ const SideData = () => {
       </div>
       <div className="sidebar-wrapper ps">
         <ul className="nav">
-          <li className="active">
+          {/* <li className="active">
             <a
               className="nav-link active"
               href="#/admin/dashboard"
@@ -31,7 +31,22 @@ const SideData = () => {
               <i className="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
-          </li>
+          </li> */}
+
+<li className="active">
+          <Link href="/">
+          <a
+              className="nav-link active"
+              href=""
+              aria-current="page"
+            >
+              <i className="nc-icon nc-bank"></i>
+              <p>Dashboard</p>
+            </a>
+            </Link>
+</li>
+
+
           {/* <li className="">
             <a className="nav-link" href="#/admin/icons">
               <i className="nc-icon nc-diamond"></i>
