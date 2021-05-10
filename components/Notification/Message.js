@@ -1,8 +1,7 @@
 const Msg = () => {
   return (
     <section>
-      <div class="square_box box_three"></div>
-      <div class="square_box box_four"></div>
+    
       <div class="container mt-5" style={{height:"100vh"}}>
         <div class="row">
           <div class="col-sm-12">
