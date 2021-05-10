@@ -40,7 +40,7 @@ const SideData = () => {
           </li> */}
           <li className="">
             <Link href="/map">
-              <a className="nav-link" href="#/admin/maps">
+              <a className="nav-link" href="">
                 <i className="nc-icon nc-pin-3"></i>
                 <p>Maps</p>
               </a>
@@ -49,7 +49,7 @@ const SideData = () => {
 
           <li className="">
             <Link href="/notification">
-              <a className="nav-link" href="#/admin/maps">
+              <a className="nav-link" href="">
                 <i className="nc-icon nc-pin-3"></i>
                 <p>Notiffications</p>
               </a>

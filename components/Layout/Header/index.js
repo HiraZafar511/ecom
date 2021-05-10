@@ -1,11 +1,18 @@
+import Link from "next/link"
 const index = () => {
   return (
     <div className="header">
-      <nav className="navbar-absolute navbar-transparent  navbar navbar-expand-lg " style={{backgroundColor:"#f4f3ef"}}>
+      <nav
+        className="navbar-absolute navbar-transparent  navbar navbar-expand-lg "
+        style={{ backgroundColor: "#f4f3ef" }}
+      >
         <div className="container-fluid">
-          <a className="navbar-brand red" href="#">
-            Navbar
-          </a>
+          <Link href="/">
+            <a className="navbar-brand red" href="">
+              Navbar
+            </a>
+          </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -51,13 +58,10 @@ const index = () => {
                     <span className="d-lg-none d-md-block">Some Actions</span>
                   </p>
                 </a>
-              
-
-       
               </li>
               <li className="nav-item">
                 <a className="nav-link btn-rotate" href="#">
-                <i className="fas fa-cog"></i>
+                  <i className="fas fa-cog"></i>
                   <p>
                     <span className="d-lg-none d-md-block">Account</span>
                   </p>
